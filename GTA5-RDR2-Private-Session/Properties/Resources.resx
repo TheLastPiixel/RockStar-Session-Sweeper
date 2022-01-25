@@ -118,7 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RDR2LogoEdited2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDR2LogoEdited2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GTA5 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GTA5 Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GTA5LogoEdited1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GTA5LogoEdited1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RDR2LogoEdited" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDR2LogoEdited.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RDR2LogoEdited1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDR2LogoEdited1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GTA5LogoEdited" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GTA5LogoEdited.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RDR2LogoEdited3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDR2LogoEdited3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

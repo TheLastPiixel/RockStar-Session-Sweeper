@@ -83,5 +83,23 @@
   <ItemGroup>
     <None Include="Resources\GTA5 Logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GTA5LogoEdited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDR2LogoEdited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDR2LogoEdited1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GTA5LogoEdited1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDR2LogoEdited2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDR2LogoEdited3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
