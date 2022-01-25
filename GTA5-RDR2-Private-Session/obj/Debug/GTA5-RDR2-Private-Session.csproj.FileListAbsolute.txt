@@ -1,0 +1,10 @@
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\obj\Debug\GTA5-RDR2-Private-Session.csproj.AssemblyReference.cache
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\obj\Debug\GTA5_RDR2_Private_Session.Form1.resources
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\obj\Debug\GTA5_RDR2_Private_Session.Properties.Resources.resources
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\obj\Debug\GTA5-RDR2-Private-Session.csproj.GenerateResource.cache
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\obj\Debug\GTA5-RDR2-Private-Session.csproj.CoreCompileInputs.cache
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\bin\Debug\GTA5-RDR2-Private-Session.exe.config
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\bin\Debug\GTA5-RDR2-Private-Session.exe
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\bin\Debug\GTA5-RDR2-Private-Session.pdb
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\obj\Debug\GTA5-RDR2-Private-Session.exe
+C:\Users\Joseph\source\repos\GTA5-RDR2-Private-Session\GTA5-RDR2-Private-Session\obj\Debug\GTA5-RDR2-Private-Session.pdb
