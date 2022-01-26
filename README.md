@@ -6,7 +6,7 @@ Well we've got you sorted! The RockStar Session Sweeper was developed to help pl
 ## Instructions
 1. Run GTA5 or RDR2 online
 2. Run the RockStart Session Sweeper.exe
-3. Select the game which you would like to find a solo session in
+3. Select the game which you would like to find a solo session in and wait for the progress bar
 4. All Done!
 
 ## Note
