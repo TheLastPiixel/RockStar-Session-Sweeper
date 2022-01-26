@@ -105,6 +105,9 @@
     <None Include="Resources\RDR2LogoEdited3.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pssuspend64.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="rockstar_games_icon_146104.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

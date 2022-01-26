@@ -1,0 +1,11 @@
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\bin\Debug\pssuspend64.exe
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\bin\Debug\RockStar Session Sweeper.exe.config
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\bin\Debug\RockStar Session Sweeper.exe
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\bin\Debug\RockStar Session Sweeper.pdb
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\obj\Debug\RockStar-Session-Sweeper.csprojAssemblyReference.cache
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\obj\Debug\GTA5_RDR2_Private_Session.Form1.resources
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\obj\Debug\GTA5_RDR2_Private_Session.Properties.Resources.resources
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\obj\Debug\RockStar-Session-Sweeper.csproj.GenerateResource.cache
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\obj\Debug\RockStar-Session-Sweeper.csproj.CoreCompileInputs.cache
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\obj\Debug\RockStar Session Sweeper.exe
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\RockStar-Session-Sweeper\obj\Debug\RockStar Session Sweeper.pdb

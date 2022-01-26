@@ -18,3 +18,4 @@ D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\GTA5-RDR2-Priv
 D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\GTA5-RDR2-Private-Session\bin\Debug\RockStar Session Sweeper.pdb
 D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\GTA5-RDR2-Private-Session\obj\Debug\RockStar Session Sweeper.exe
 D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\GTA5-RDR2-Private-Session\obj\Debug\RockStar Session Sweeper.pdb
+D:\Users\TheLastPiixel\Documents\Session Sweeper (RockStar Games)\GTA5-RDR2-Private-Session\bin\Debug\pssuspend64.exe
