@@ -17,7 +17,6 @@ namespace GTA5_RDR2_Private_Session
     {
         public string programme;
         public int delay = 8000;
-        public int currentTick = 0;
 
         public Form1()
         {
@@ -26,17 +25,60 @@ namespace GTA5_RDR2_Private_Session
 
         private void GTA5_Click(object sender, EventArgs e)
         {
-            programme = "GTA5.exe";
-            SuspendProgramme(programme);
+            programme = "GTA5";
+            CheckIfProgrammeRunning();
         }
 
         private void RDR2_Click(object sender, EventArgs e)
         {
-            programme = "RDR2.exe";
-            SuspendProgramme(programme);
+            programme = "RDR2";
+            CheckIfProgrammeRunning();
         }
 
-        private void SuspendProgramme(string programme)
+        private void Clk_Tick(object sender, EventArgs e)
+        {
+            SweepingProgressBar.PerformStep();
+            if (SweepingProgressBar.Value == SweepingProgressBar.Maximum)
+            {
+                Clk.Stop();
+            }
+        }
+
+        private void ResumeProgrammeTimer_Tick(object sender, EventArgs e)
+        {
+            //Resume programme
+            string cmd = "-r " + programme + ".exe";
+            System.Diagnostics.Process.Start("pssuspend64.exe", cmd);
+
+            //Re-enable buttons
+            GTA5.Enabled = true;
+            RDR2.Enabled = true;
+
+            ResumeProgrammeTimer.Stop();
+        }
+
+        private void ErrorLabelTimer_Tick(object sender, EventArgs e)
+        {
+            //Resets error label
+            ErrorLabel.Text = "";
+            ErrorLabelTimer.Stop();
+        }
+
+        private void CheckIfProgrammeRunning()
+        {
+            //Check if requested programme is running
+            if (Process.GetProcessesByName(programme).Length > 0)
+            {
+                SuspendProgramme();
+            }
+            else
+            {
+                ErrorLabel.Text = programme + ".exe is not running!";
+                ErrorLabelTimer.Start();
+            }
+        }
+
+        private void SuspendProgramme()
         {
             //Disables buttons
             GTA5.Enabled = false;
@@ -47,45 +89,18 @@ namespace GTA5_RDR2_Private_Session
             ResumeProgrammeTimer.Interval = delay;
 
             //Suspends process
-            System.Diagnostics.Process.Start("pssuspend64.exe", programme);
+            System.Diagnostics.Process.Start("pssuspend64.exe", programme + ".exe");
 
             //Starts countdown for programme to resume
+            StartProgressBar();
             ResumeProgrammeTimer.Start();
-            //ProgressBar();
         }
 
-        private void ResumeProgrammeTimer_Tick(object sender, EventArgs e)
-        {
-            //Resume programme
-            string cmd = "-r " + programme;
-            System.Diagnostics.Process.Start("pssuspend64.exe", cmd);
-
-            //Re-enable buttons
-            GTA5.Enabled = true;
-            RDR2.Enabled = true;
-
-            ResumeProgrammeTimer.Stop();
-        }
-
-        private void ProgressBar()
+        private void StartProgressBar()
         {
             SweepingProgressBar.Value = 0;
-            currentTick = 0;
+            SweepingProgressBar.Maximum = delay / 500;
             Clk.Start();
-
-            int interval = (delay / SweepingProgressBar.Maximum);
-            while (currentTick < delay)
-            {
-                if (currentTick % interval == 0 && SweepingProgressBar.Value < SweepingProgressBar.Maximum)
-                {
-                    SweepingProgressBar.Value++;
-                }
-            }
-        }
-
-        private void Clk_Tick(object sender, EventArgs e)
-        {
-            currentTick = currentTick++;
         }
     }
 }
