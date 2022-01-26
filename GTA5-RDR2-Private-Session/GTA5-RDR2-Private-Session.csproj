@@ -7,7 +7,7 @@
     <ProjectGuid>{CBB17A15-2DBE-4227-9188-35EBB15C3CEA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>GTA5_RDR2_Private_Session</RootNamespace>
-    <AssemblyName>GTA5-RDR2-Private-Session</AssemblyName>
+    <AssemblyName>RockStar Session Sweeper</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>rockstar_games_icon_146104.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -100,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RDR2LogoEdited3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rockstar_games_icon_146104.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
