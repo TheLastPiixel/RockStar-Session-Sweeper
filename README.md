@@ -10,6 +10,6 @@ Well we've got you sorted! The RockStar Session Sweeper was developed to help pl
 4. All Done!
 
 ## Note
-Default suspension time is set to 8s, this time can be altered if needed by using the numeric updown.
-If players remain in lobby after using session sweeper, increase the suspension time.
-If you disconnect from game due to "Lost connection", decrease the suspension time.
+Default suspension time is set to 8s, this time can be altered if needed by using the numeric updown.  
+If players remain in lobby after using session sweeper, increase the suspension time.  
+If you disconnect from game due to "Lost connection", decrease the suspension time.  
